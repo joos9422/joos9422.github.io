@@ -1,0 +1,156 @@
+.container{width: 100%; height: 100%;}
+.hd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    }
+.hdwrap{
+    width: 100%;
+    height: 180px;
+    position: relative;
+    margin: 0 auto;
+}        
+.gnb{
+    position: absolute;
+    left: 1%;
+    top: 25%;
+    width: 400px;
+}
+.logo{
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #bf0000;
+    margin: 0 10px;
+    font-weight: bold; 
+}
+        
+a img{
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.gnb li a{
+    font-size:12pt;
+    color:white;
+}
+        
+.tnb{
+    position: absolute;
+    right: 1%;
+    top: 25%;
+}
+.page{
+    clear: both;
+    padding-right: 3%;
+    height: 100%;
+    position: relative;
+    margin-left: 270px;
+    padding-left: 20px;
+}
+        
+.tnb li{ 
+    float: left;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.tnb li a{
+    font-size:10pt;
+    color:white;
+    
+}
+        
+.conWrap{
+    clear:both;
+}
+        
+.gnb li{
+    width: 33.3%;
+    float: left;
+    padding: 0 10px;
+    line-height: 30px;   
+        }
+.tnb li{
+    float: left;
+    padding: 0 10px;
+    line-height: 30px; 
+}  
+.conWrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.left{
+    position: fixed;
+    width: 22%;
+    height: 100%;
+    left: 0;
+    background-color:white;
+    top: 180px;
+    z-index: 50;
+}
+        
+.title{
+    font-size: 20pt;
+    color: black;
+    line-height: 90px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.lnb{
+    font-size:12pt;
+    margin-left: 35px;
+    
+} 
+
+.lnb li{
+    line-height: 40px;   
+}
+
+.lnb li a{
+    color: #585858;
+    font-size: 16px;
+}
+
+.contents{
+    height: 100%;
+    padding-top: 180px;
+    width: 93%;
+    float: right;
+}
+
+.titleBar{
+    background-color: burlywood;
+    text-indent: 15px;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.ban_2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ban img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.pageComent{
+    padding-top: 15px;
+    font-size: 10pt;
+    line-height: 30px;
+}

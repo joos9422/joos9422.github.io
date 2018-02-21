@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서브페이지에오</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="hd.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cairo|Maven+Pro|Quicksand');
+/*
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Maven Pro', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+*/
+    </style>
+    <style>
+        .page{height: 0;}
+        #visual{width:100%; position: relative; height:85%; /*margin-left:15%;*/ margin-top:150px; overflow: hidden;}
+        #visual img{display: block; width: 100%; height: auto;}
+        .titleBox{position: absolute; left: 0; top: 10%; z-index: 10;}
+        .pgTitle{text-align: center; font-family: 'Maven Pro', sans-serif;}
+        .pgComent{text-align: center;padding: 100px; font-family: 'Maven Pro', sans-serif;}
+        .row{width:90%;position: relative; margin:5%;}
+        .cols{width:33.333%; float:left; margin-bottom:10px; height: 450px;}
+        .cols:hover{border:1px solid #999; box-sizing:border-box;}
+        .pic2{display: none;}
+        .cols .pic1{display:block;}
+        .cols:hover .pic1{display: none;}
+        .cols .pic2{display: none;}
+        .cols:hover .pic2{display:block;}
+        .itemTitle{display: block; text-align: center; font-family: 'Maven Pro', sans-serif; color:#333; padding:10px; line-height: 4;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="hd">
+            <div class="hdwrap">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="sub1.html">VERSACE</a></li>
+                        <li><a href="sub2.html">FASHION</a></li>
+                        <li><a href="sub3.html">SHOES</a></li>
+                        <li><a href="sub4.html">ACCESSORY</a></li>
+                        <li><a href="sub5.html">BED & BATH</a></li>
+                        <li><a href="sub6.html">LIVING</a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="logo"><img src="./logo.png" alt="logo"></a>
+                <div class="tnb">
+                    <ul>
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                        <li><a href="">SITEMAP</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="conWrap">
+            <aside class="left">
+                <h2 class="title">ACCESSORY</h2>
+                <nav class="lnb">
+                    <ul>
+                        <li><a href="#page1">Necklaces & Chains</a></li>
+                        <li><a href="#page2">Bracelets</a></li>
+                        <li><a href="#page3">Earrings</a></li>
+                        <li><a href="#page4">Rings</a></li>
+                        <li><a href="#page5">Hair Clips and Brooches</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <figure id="visual">
+            <div class="titleBox">  
+               <h2 class="pgTitle">WOMEN'S</h2>
+                <p class="pgComent"></p>    
+            </div>    
+            <img src="./img/w_main.jpg" alt="">
+        </figure>
+        <section class="page" id="page1">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_DG1G216-DJMX_DCO0_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG1G216-DJMX_DCO0_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BAROQUE SWIRL PENDANT NECKLACE</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_DG3G139-DJMX_D0OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG3G139-DJMX_D0OC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA LOCK LARIAT NECKLACE</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page2">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_DG0G218-DJMX_DCO0_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0G218-DJMX_DCO0_22.png" alt="" class="pic2">
+                            <span class="itemTitle">CRYTAL BAROQUE BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_DG0G163-DJMX_D0OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0G163-DJMX_D0OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA LOCK LARIAT BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_DG0F766-DMTN_D41OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0F766-DMTN_D41OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">VERSACE LOGO LEATHER BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_DG0E282-DMTN_D41OH_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0E282-DMTN_D41OH_22.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA STUDDED BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item5">
+                        <a href="">
+                            <img src="./img/90_DG0G278-DMTN_D01OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0G278-DMTN_D01OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">ROCK'N ROYALTY LEATHER BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item6">
+                        <a href="">
+                            <img src="./img/90_DG0G278-DMTN_D41OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0G278-DMTN_D41OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">ROCK'N ROYALTY LEATHER BRACELET</span>
+                        </a>
+                    </li>
+                    <li class="cols item7">
+                        <a href="">
+                            <img src="./img/90_DG0G291-DJMX_D0OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG0G291-DJMX_D0OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">CRYSTAL BULLONI CHAIN BRACELET</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page3">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_DG2G219-DJMX_DCO0_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G219-DJMX_DCO0_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BAROQUE SWIRL DROP EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_DG2G411-DJMT_KOT_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G411-DJMT_KOT_23.png" alt="" class="pic2">
+                            <span class="itemTitle">TRIBUTE MEDUSA STUD EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_DG2E533-DJMT_D00OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2E533-DJMT_D00OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA HEAD EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_DG2G140-DJMX_D0OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G140-DJMX_D0OC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA CHAIN DROP EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item5">
+                        <a href="">
+                            <img src="./img/90_DG2G250-DMTN_D41OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G250-DMTN_D41OC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BEADED LEATHER KNOT HOOP EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item6">
+                        <a href="">
+                            <img src="./img/90_DG2G252-DMTN_D41OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G252-DMTN_D41OC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BEADED LEATHER WEAVE HOOP EARRINGS</span>
+                        </a>
+                    </li>
+                    <li class="cols item7">
+                        <a href="">
+                            <img src="./img/90_DG2G252-DMTN_DLIOC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG2G252-DMTN_DLIOC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BEADED LEATHER WEAVE HOOP EARRINGS</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page4">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_DG5C050-DJMX_D01O_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG5C050-DJMX_D01O_22.png" alt="" class="pic2">
+                            <span class="itemTitle">ALL OVER CRYSTAL RING</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_DG5E544-DJMT_D00OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG5E544-DJMT_D00OC_23.png" alt="" class="pic2">
+                            <span class="itemTitle">STRONG WRAP MEDUSA RING</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_DG5G245-DJMS_D41OC_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG5G245-DJMS_D41OC_22.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA ENAMEL BOLT RING</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_DG5G412-DJMT_KOT_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG5G412-DJMT_KOT_22.png" alt="" class="pic2">
+                            <span class="itemTitle">TRIBUTE MEDUSA RING</span>
+                        </a>
+                    </li>
+                    <li class="cols item5">
+                        <a href="">
+                            <img src="./img/90_DG5E011-DJMX_D01O_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG5E011-DJMX_D01O_22.png" alt="" class="pic2">
+                            <span class="itemTitle">ICON MEDUSA RING</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page5">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_DG66775-DJMT_D00K_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG66775-DJMT_D00K_23.png" alt="" class="pic2">
+                            <span class="itemTitle">VINTAGE LOGO PIN</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_DG66775-DJMT_D00O_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG66775-DJMT_D00O_22.png" alt="" class="pic2">
+                            <span class="itemTitle">VINTAGE LOGO PIN</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_DGVG419-DJMT_KOT_20.png" alt="" class="pic1">
+                            <img src="./img/90_DGVG419-DJMT_KOT_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA TRIBUTE LEFT HAIR CLIP</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_DG66782-DJMX_DCO0_20.png" alt="" class="pic1">
+                            <img src="./img/90_DG66782-DJMX_DCO0_23.png" alt="" class="pic2">
+                            <span class="itemTitle">ROCK 'N' ROYALTY PIN</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>       

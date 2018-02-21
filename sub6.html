@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서브페이지에오</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="hd.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cairo|Maven+Pro|Quicksand');
+/*
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Maven Pro', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+*/
+    </style>
+    <style>
+        #visual{width:100%; position: relative; height:85%;/* margin-left:15%;*/ margin-top:150px; overflow: hidden;}
+        #visual img{display: block; width: 100%; height: auto;}
+        .titleBox{position: absolute; left: 0; top: 10%; z-index: 10;}
+        .pgTitle{text-align: center; font-family: 'Maven Pro', sans-serif;}
+        .pgComent{text-align: center;padding: 100px; font-family: 'Maven Pro', sans-serif;}
+        .row{width:96%;position: relative; margin:2%;}
+        .cols{width:33.333%; float:left; margin-bottom:10px; height: 450px;}
+        .cols:hover{border:1px solid #999; box-sizing:border-box;}
+        .pic2{display: none;}
+        .cols .pic1{display:block;}
+        .cols:hover .pic1{display: none;}
+        .cols .pic2{display: none;}
+        .cols:hover .pic2{display:block;}
+        .itemTitle{display: block; text-align: center; font-family: 'Maven Pro', sans-serif; color:#333; padding:10px;line-height: 4;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="hd">
+            <div class="hdwrap">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="sub1.html">VERSACE</a></li>
+                        <li><a href="sub2.html">FASHION</a></li>
+                        <li><a href="sub3.html">SHOES</a></li>
+                        <li><a href="sub4.html">ACCESSORY</a></li>
+                        <li><a href="sub5.html">BED & BATH</a></li>
+                        <li><a href="sub6.html">LIVING</a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="logo"><img src="./logo.png" alt="logo"></a>
+                <div class="tnb">
+                    <ul>
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                        <li><a href="">SITEMAP</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="conWrap">
+            <aside class="left">
+                <h2 class="title">LIVING</h2>
+                <nav class="lnb">
+                    <ul>
+                        <li><a href="#page1">Candles</a></li>
+                        <li><a href="#page2">Cushions</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <figure id="visual">
+            <div class="titleBox">  
+               <h2 class="pgTitle">WOMEN'S</h2>
+                <p class="pgComent"></p>    
+            </div>    
+            <img src="./img/l2_main.jpg" alt="">
+        </figure>
+        <section class="page" id="page1">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_R715052-R750GR_RNUL_20.png" alt="" class="pic1">
+                            <img src="./img/90_R715052-R750GR_RNUL_23.png" alt="" class="pic2">
+                            <span class="itemTitle">LARGE MEDUSA AMBER SCENTED CANDLE</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_R715053-R300GR_RNUL_20.png" alt="" class="pic1">
+                            <img src="./img/90_R715053-R300GR_RNUL_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA AMBER SCENTED CANDLE</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_R715054-R300GR_RNUL_20.png" alt="" class="pic1">
+                            <img src="./img/90_R715054-R300GR_RNUL_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA CERAMIC AMBER SCENTED CANDLE</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page2">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_ZCU505001-ZSEP0120_Z7122_23.png" alt="" class="pic1">
+                            <img src="./img/90_ZCU505001-ZSEP0120_Z7122_23.png" alt="" class="pic2">
+                            <span class="itemTitle">BOB THE GORILLA SILK CUSHION</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_ZCU21CO-Z01396_Z0001_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZCU21CO-Z01396_Z0001_20.png" alt="" class="pic2">
+                            <span class="itemTitle">BAROCCO PRINT CUSHION</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_MCU21VE-M03149_MS015_23.png" alt="" class="pic1">
+                            <img src="./img/90_MCU21VE-M03149_MS015_20.png" alt="" class="pic2">
+                            <span class="itemTitle">LE VASE BAROQUE CUSHION</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_ZCU454501-ZCOP0001_Z7019_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZCU454501-ZCOP0001_Z7019_20.png" alt="" class="pic2">
+                            <span class="itemTitle">LE VASE BAROQUE SILK CUSHION</span>
+                        </a>
+                    </li>
+                    <li class="cols item5">
+                        <a href="">
+                            <img src="./img/90_ZCU29VE-ZBCMED_Z0T85_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZCU29VE-ZBCMED_Z0T85_23.png" alt="" class="pic2">
+                            <span class="itemTitle">CUSHION STUDDED HEAD OF MEDUSA</span>
+                        </a>
+                    </li>
+                    <li class="cols item6">
+                        <a href="">
+                            <img src="./img/90_ZCU505010-ZCOV0002_Z4800_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZCU505010-ZCOV0002_Z4800_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA STUDS VELVET CUSHION</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>       

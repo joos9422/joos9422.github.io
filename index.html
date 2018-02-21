@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>베르사체에 오신걸 환영합니다.</title>
+    <link rel="stylesheet" href="common.css">
+    <style>
+        html, body{
+            overflow: hidden;
+        }
+        #container, #gnb{width:100%;height:100%;}
+		#gnb ul{ width: 100%; height: 100%;}
+		
+        #gnb li{ width: 26%;position: absolute;left: 37%;z-index: 10;top:7%}
+		#gnb .logo a{display: block;text-align: center; height: 240px;}
+        #gnb .item1{height:31%;top: 290px;}
+		#gnb .item2{height:41%; top:390px;}
+		#gnb .item3{height:52%; top:490px;}
+		#gnb .item4{height:62%; top:590px;}
+		#gnb .item5{height:72%; top:690px;}
+		#gnb .item6{height:82%; top:790px;}
+		#gnb li a { display: block; line-height: 70px;text-align: center;}
+		#gnb li.picBox{left: 0; top: 0; width: 100%; height: 100%; z-index: 3; background-image:url("./img/picbox.jpg");background-repeat: no-repeat;background-size: cover;}
+		#gnb li.navBox{left: 0;top: 0;width: 100%;height: 100%;z-index: 5;background-image: url("./img/navBox.png");background-repeat: no-repeat;background-position: center;background-size: contain;}
+		#gnb li.item1:hover~li.picBox{
+						transition:0.2s;
+						background-image: url("./runway/coll_2.jpg");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+		#gnb li.item2:hover~li.picBox{
+						transition:0.5s;
+						background-image: url("./runway/ss18_7_2.jpg");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+		#gnb li.item3:hover~li.picBox{
+						transition:0.5s;
+						background-image: url("./runway/shoes2_2.jpg");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+		#gnb li.item4:hover~li.picBox{
+						transition:0.5;
+						background-image: url("./runway/acc.jpg");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+		#gnb li.item5:hover~li.picBox{
+						transition:0.5s;
+						background-image: url("./runway/be_dar.JPG");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+		#gnb li.item6:hover~li.picBox{
+						transition:0.5s;
+						background-image: url("./runway/livi_dar.jpg");
+						background-repeat: no-repeat;
+						background-position:center center;
+						background-size:cover;
+						}
+        .item{text-indent:100%;white-space: nowrap; overflow: hidden;}
+    </style>	
+</head>
+<body>
+    <div id="container">
+        <nav id="gnb">
+            <ul>
+                <li class="logo">
+                    <a href="index.html"><img src="" alt=""></a>
+                </li>
+                <li class="item1 item"><a href="sub1.html">VERSACE</a></li>
+                <li class="item2 item"><a href="sub2.html">FASHOIN</a></li>
+                <li class="item3 item"><a href="sub3.html">SHOES</a></li>
+                <li class="item4 item"><a href="sub4.html">ACCESSORY</a></li>
+                <li class="item5 item"><a href="sub5.html">BED&BATH</a></li>
+                <li class="item6 item"><a href="sub6.html">LIVING</a></li>
+                <li class="picBox"></li>
+                <li class="navBox"></li>
+            </ul>
+        </nav>
+        <footer class="ft">
+            <nav class="ftLink">
+                <ul>
+                    <li>
+                        <a href="">FAQ</a>
+                        <a href="">고객문의</a>
+                        <a href="">매장위치</a>
+                        <a href="">개인정보보호정책</a>
+                        <a href="">뉴스레터</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="snsLink">
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+            <p class="copyright">COPYRIGHTS VERSACE ALL RIGHT RESERVED.</p>
+        </footer>
+    </div>
+</body>
+</html>

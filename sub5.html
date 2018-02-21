@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>서브페이지에오</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="hd.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cairo|Maven+Pro|Quicksand');
+/*
+        font-family: 'Cairo', sans-serif;
+        font-family: 'Maven Pro', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+*/
+    </style>
+    <style>
+        #visual{width:100%; position: relative; height:90%; /*margin-left:15%; */margin-top:150px; overflow: hidden;}
+        #visual img{display: block; width:100%; height: auto;}
+        .titleBox{position: absolute; left: 0; top: 10%; z-index: 10;}
+        .pgTitle{text-align: center; font-family: 'Maven Pro', sans-serif;}
+        .pgComent{text-align: center;padding: 100px; font-family: 'Maven Pro', sans-serif;}
+        .row{width:100%;position: relative; margin:10px auto;}
+        .cols{width:33.333%; float:left; margin-bottom:10px; height: 450px;}
+        .cols:hover{border:1px solid #999; box-sizing:border-box;}
+        .pic2{display: none;}
+        .cols .pic1{display:block;}
+        .cols:hover .pic1{display: none;}
+        .cols .pic2{display: none;}
+        .cols:hover .pic2{display:block;}
+        .itemTitle{display: block; text-align: center; font-family: 'Maven Pro', sans-serif; color:#333; padding:10px; line-height: 4;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="hd">
+            <div class="hdwrap">
+                <div class="gnb">
+                    <ul>
+                        <li><a href="sub1.html">VERSACE</a></li>
+                        <li><a href="sub2.html">FASHION</a></li>
+                        <li><a href="sub3.html">SHOES</a></li>
+                        <li><a href="sub4.html">ACCESSORY</a></li>
+                        <li><a href="sub5.html">BED & BATH</a></li>
+                        <li><a href="sub6.html">LIVING</a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="logo"><img src="./logo.png" alt="logo"></a>
+                <div class="tnb">
+                    <ul>
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">회원가입</a></li>
+                        <li><a href="">SITEMAP</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="conWrap">
+            <aside class="left">
+                <h2 class="title">BED & BATH</h2>
+                <nav class="lnb">
+                    <ul>
+                        <li><a href="#page1">Bathrobes</a></li>
+                        <li><a href="#page2">Comforters</a></li>
+                        <li><a href="#page3">Towels</a></li>
+                        <li><a href="#page4">Slippers</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
+        <figure id="visual">
+            <div class="titleBox">  
+               <h2 class="pgTitle">WOMEN'S</h2>
+                <p class="pgComent"></p>    
+            </div>    
+            <img src="./img/b_main.jpg" alt="">
+        </figure>
+        <section class="page" id="page1">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_ZACP00002-ZSEP0121_Z7014_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZACP00002-ZSEP0121_Z7014_22.png" alt="" class="pic2">
+                            <span class="itemTitle">ÉTOILES DE LA MER SILK ROBE</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_ZACP00001-ZSEP0026_Z7019_10.png" alt="" class="pic1">
+                            <img src="./img/90_ZACP00001-ZSEP0026_Z7019_10.png" alt="" class="pic2">
+                            <span class="itemTitle">LA COUPE DES DIEUX SILK BATHROBE</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_ZACP00051-ZCOSP075_Z7066_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZACP00051-ZCOSP075_Z7066_22.png" alt="" class="pic2">
+                            <span class="itemTitle">I ♡ BAROQUE TERRY CLOTH BATHROBE</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_ZAC16SP-Z00500_Z0021_10.png" alt="" class="pic1">
+                            <img src="./img/90_ZAC16SP-Z00500_Z0021_14.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA HOODED BATHROBE</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page2">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_ZPL14001-ZWSM0003_Z4001_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZPL14001-ZWSM0003_Z4001_23.png" alt="" class="pic2">
+                            <span class="itemTitle">LA COUPE DES DIEUX PLAID BLANKET</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_ZBCS27001-ZCOP0105_Z7010_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZBCS27001-ZCOP0105_Z7010_23.png" alt="" class="pic2">
+                            <span class="itemTitle">I ♡ BAROQUE COMFORTER</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_ZBCS28001-ZCOP0005_Z7020_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZBCS28001-ZCOP0005_Z7020_20.png" alt="" class="pic2">
+                            <span class="itemTitle">LE COUPE DES DIEUX COMFORTER</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_ZBCS27001-ZSEP0118_Z7106_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZBCS27001-ZSEP0118_Z7106_23.png" alt="" class="pic2">
+                            <span class="itemTitle">ÉTOILES DE LA MER SILK COMFORTER</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page3">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4800_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4800_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA 5 PIECE TOWEL SET</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4004_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4004_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA 5 PIECE TOWEL SET</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4003_20.png" alt="" class="pic1">
+                            <img src="./img/90_ZSET5TO01-ZCOSP053_Z4003_23.png" alt="" class="pic2">
+                            <span class="itemTitle">MEDUSA 5 PIECE TOWEL SET</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="page" id="page4">
+            <div class="row">
+                <ul>
+                    <li class="cols item1">
+                        <a href="">
+                            <img src="./img/90_ZSLB00001-ZCOSP052_Z4004_20.png" alt="">
+                            <span class="itemTitle">I ♡ BAROQUE BATH SLIPPERS</span>
+                        </a>
+                    </li>
+                    <li class="cols item2">
+                        <a href="">
+                            <img src="./img/90_ZSLB00001-ZCOSP052_Z4001_20.png" alt="">
+                            <span class="itemTitle">I ♡ BAROQUE BATH SLIPPERS</span>
+                        </a>
+                    </li>
+                    <li class="cols item3">
+                        <a href="">
+                            <img src="./img/90_ZPN15SP-Z00450_Z0021_20.png" alt="" >
+                            <span class="itemTitle">GRECA KEY SLIPPERS</span>
+                        </a>
+                    </li>
+                    <li class="cols item4">
+                        <a href="">
+                            <img src="./img/90_ZSLJM0001-ZCOSP057_Z4003_20.png" alt="">
+                            <span class="itemTitle">GRECA KEY SLIPPERS</span>
+                        </a>
+                    </li>
+                    <li class="cols item5">
+                        <a href="">
+                            <img src="./img/90_ZSLJM0001-ZCOSP057_Z4004_20.png" alt="">
+                            <span class="itemTitle">GRECA KEY SLIPPERS</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+</body>       
